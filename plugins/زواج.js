@@ -10,7 +10,7 @@ m.reply(`*${toM(a)}, الف مبروك للعريس🥳✨*
 mentions: [a, b]
 })}
 handler.help = ['formarpareja']
-handler.tags = ['main', 'fun']
+handler.tags = ['group']
 handler.command = ['formarpareja','زواج']
 handler.group = true
 export default handler
