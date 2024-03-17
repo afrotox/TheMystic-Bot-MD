@@ -95,7 +95,7 @@ let handler = m => m;
      responses = [ 
        '*لا تنسى ال .*',  
      ];
-            }else if (/^$/i.test(m.text)) { 
+            }else if (/^بوت$/i.test(m.text)) { 
      responses = [ 
        '*تحت امرك حبي*',  
      ];
