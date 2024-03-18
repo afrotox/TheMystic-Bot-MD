@@ -9,7 +9,6 @@ function pickRandom(list) {
 }
 
  global.lw = [
-  
  `*∞──────「كـت」──────∞*
 
 *~『لوفي』~*
