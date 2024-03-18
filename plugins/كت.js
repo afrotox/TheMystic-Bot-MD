@@ -1,10 +1,15 @@
-let handler = m => m; 
+}
+handler.help = ['كت']
+handler.tags = ['fun']
+handler.command = ['كت']
+export default handler
 
- handler.all = async function (m) { 
- let chat = global.db.data.chats[m.chat]; 
- let responses; 
- if (/^كت$/i.test(m.text)) { 
- responses = [ 
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())]
+}
+
+ global.lw = [
+  
  `*∞──────「كـت」──────∞*
 
 *~『لوفي』~*
@@ -208,13 +213,3 @@ let handler = m => m;
 
 *∞──────「كـت」──────∞*`
 
- ];
- }  
- if (responses) { 
- let randomIndex = Math.floor(Math.random() * responses.length); 
- conn.reply(m.chat, responses[randomIndex], m); 
- } 
- return !0 
- }; 
-
- export default handler;
