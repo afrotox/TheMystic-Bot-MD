@@ -9,7 +9,7 @@ if (!text) throw `*تحميل صور من جوجل*\nمثــــال :\n*.صو�
 const res = await googleImage(text)
 let image = res.getRandom()
 let link = image
-conn.sendFile(m.chat, link, 'error.jpg', ` اتفضل 💎✨🌀` , m) 
+conn.sendFile(m.chat, type, 'error.jpg', ` اتفضل 💎✨🌀` , m) 
 }
 handler.help = ['صوره']
 handler.tags = ['downloader']
