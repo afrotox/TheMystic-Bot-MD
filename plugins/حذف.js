@@ -1,6 +1,6 @@
 
 const handler = async (m, { conn, command }) => {
-  if (!m.quoted) throw 'فين رسااه ال عتوز تمسحها';
+  if (!m.quoted) throw 'فين رسااه ال عاوز تمسحها';
   try {
     let bilek = m.message.extendedTextMessage.contextInfo.participant;
     let banh = m.message.extendedTextMessage.contextInfo.stanzaId;
