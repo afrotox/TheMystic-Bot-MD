@@ -82,12 +82,12 @@ let handler = m => m;
        '*اهلا♥*',  
 
      ]; 
-     }else if (/^مساء|مساء$/i.test(m.text)) { 
+     }else if (/^مساء|مسا$/i.test(m.text)) { 
      responses = [ 
        'مساء الخير',  
 
      ];
-     }else if (/^صباح|صباح$/ .test(m.text)) { 
+     }else if (/^صباح|صباحو$/ .test(m.text)) { 
      responses = [ 
        '*صباح الورد♥*',  
      ];
